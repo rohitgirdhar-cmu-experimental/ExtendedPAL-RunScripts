@@ -8,8 +8,8 @@ $CODE_PATH/main.bin \
     -o /home/rgirdhar/data/Work/Datasets/processed/0006_ExtendedPAL/matches/test/ \
     -m /home/rgirdhar/data/Work/Datasets/processed/0006_ExtendedPAL/lists/NdxesPeopleTest.txt \
     -c /srv2/rgirdhar/Work/Datasets/processed/0006_ExtendedPAL/selsearch_boxes/counts.txt \
-    --boxes2run4 /srv2/rgirdhar/Work/Datasets/processed/0006_ExtendedPAL/query_scores/fc7_PeopleOnly_topIdxs 
-#    --updateres \
+    --updateres
+#    --boxes2run4 /srv2/rgirdhar/Work/Datasets/processed/0006_ExtendedPAL/query_scores/fc7_PeopleOnly_topIdxs
 #-o /home/rgirdhar/data/Work/Datasets/processed/0001_PALn1KDistractor/matches_query/ \
 #-m /home/rgirdhar/data/Work/Datasets/processed/0001_PALn1KDistractor/split/QueryList.txt
 #-d /srv2/rgirdhar/Work/Datasets/processed/0006_ExtendedPAL/features/CNN_pool5_uni_normed_LMDB \
